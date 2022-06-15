@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questão 14</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: #d3eafc;
+      }
+
+      header,
+      aside,
+      section div,
+      footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      header {
+        width: 100%;
+        border: 0.2rem solid #2197f4;
+        height: 10vh;
+      }
+
+      main {
+        height: 90vh;
+        display: grid;
+        grid-template-columns: 20% 80%;
+      }
+
+      main aside {
+        border: 0.2rem solid #2197f4;
+        height: 100%;
+      }
+
+      main section {
+        width: 100%;
+        height: 90%;
+        border: 0.2rem solid #2197f4;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      main section div {
+        border: 0.2rem solid #2197f4;
+        text-align: center;
+      }
+
+      main footer {
+        border: 0.2rem solid #2197f4;
+        height: 10%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header</header>
+    <main>
+      <aside>Menu</aside>
+      <div class="content">
+        <section>
+          <div class="main">Main</div>
+          <div class="right">Right</div>
+        </section>
+        <footer>Footer</footer>
+      </div>
+    </main>
+  </body>
+</html>
